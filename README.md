@@ -1,6 +1,6 @@
 # Spring Boot data Vavr bug reproduction project
 
-This project reproduces a bug in Spring Boot data when using `@QUery` which return
+This project reproduces a bug in Spring Boot data when using `@Query` which return
 non entity results (e.g. just a `String`) wrapped in a Vavr collection type.
 
 One example of such an interface method is:
